@@ -1,15 +1,19 @@
 {
-  "name": "gonastorga.com",
+  "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.5",
+    "classnames": "^2.2.6",
+    "next": "^10.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.2"
   }
 }
