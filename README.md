@@ -1,1 +1,7 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is the code for [gonastorga.com](https://gonastorga.com).
+
+# For development
+```bash
+npm install
+npm run dev
+```

@@ -21,9 +21,9 @@ export default function Home( {allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I am a software developer and entrepeneur. Working on DeFi data and analytics. </p>
+        <p>I am a software developer working towards a more decentralized society. </p>
         <p>
-        (This is my blog where I share my thought about crypto, artificial intelligence and other software topics. You can follow me on {' '}
+        (This is my blog where I share my thought about blockchain, artificial intelligence and other software topics. You can follow me on {' '}
           <a href="https://linkedin.com/in/gonastorga">Linkedin</a>.)
         </p>
       </section>
