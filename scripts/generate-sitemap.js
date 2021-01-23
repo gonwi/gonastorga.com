@@ -10,7 +10,8 @@ const prettier = require('prettier');
   const pages = await globby([
     'pages/**/*{.js,.mdx}',
     '!pages/_*.js',
-    '!pages/api'
+    '!pages/api',
+    'data/**/*.md'
   ]);
   const sitemap = `
         <?xml version="1.0" encoding="UTF-8"?>
@@ -21,6 +22,7 @@ const prettier = require('prettier');
                   .replace('pages', '')
                   .replace('.js', '')
                   .replace('.mdx', '');
+                  .replace('data', '')
                 const route = path === '/index' ? '' : path;
 
                 return `
