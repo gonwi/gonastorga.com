@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Gonzalo Astorga'
-export const siteTitle = "Gonzalo Astorga - Developer, crypto fanboy, creator."
+export const siteTitle = "Gonzalo Astorga - Developer, blockchain, creator."
 
 export default function Layout({ children, home }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Gonzalo Astorga is the CEO of Codabl Inc. This is his personal blog."
         />
         <meta
           property="og:image"
