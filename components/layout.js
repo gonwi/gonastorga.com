@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Gonzalo Astorga is the CEO of Codabl Inc. This is his personal blog."
+          content="Gonzalo Astorga is a software developer and entrepeneur. This is his personal blog."
         />
         <meta
           property="og:image"
