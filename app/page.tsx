@@ -120,7 +120,7 @@ export default async function Home() {
         <p className="font-semibold text-lg">Projects</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 gap-y-6">
           {siteConfig.projects.map((project) => (
-            <Card className="p-3 dark:bg-muted">
+            <Card key={project.name} className="p-3 dark:bg-muted">
             <div key={project.name} className="space-y-2">
               <TooltipProvider>
                 <Tooltip>
