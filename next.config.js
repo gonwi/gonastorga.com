@@ -1,10 +1,8 @@
-module.exports = {
-    webpack: (config, { isServer }) => {
-      if (isServer) {
-        require('./scripts/generate-sitemap');
-      }
-  
-      return config;
-    }
-  };
-  
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ["i.scdn.co", "res.cloudinary.com"],
+  },
+};
+
+module.exports = nextConfig;
